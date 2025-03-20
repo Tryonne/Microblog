@@ -1,8 +1,8 @@
-from app impot app
+from app import app
 
-@app.routes('/')
-@app.routes('/indext')
+@app.route('/')
+def home():
+    return "Hello, Flask!"
 
-def indext():
-
-    return "Hello, Worlds"
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8000, debug=True)

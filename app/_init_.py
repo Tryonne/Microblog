@@ -1,8 +1,8 @@
 from flask import Flask
 
-app = Flask(_name_)     
-\
-from app import routes 
+app = Flask(__name__)
+
+from app import routes
 
 
 
