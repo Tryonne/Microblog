@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Simples</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .post {
+      background: #fff;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .post h2 {
+      margin-bottom: 10px;
+    }
+
+    .post p {
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu Blog</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="post">
+      <h2>Título do Post 1</h2>
+      <small>Publicado em 04 de abril de 2025</small>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel urna nec metus ullamcorper pretium.</p>
+    </div>
+
+    <div class="post">
+      <h2>Título do Post 2</h2>
+      <small>Publicado em 02 de abril de 2025</small>
+      <p>Aliquam erat volutpat. Sed cursus, lacus nec efficitur laoreet, lorem lorem commodo arcu, a iaculis leo nisl at libero.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Meu Blog. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
