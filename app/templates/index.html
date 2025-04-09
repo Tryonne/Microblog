@@ -144,12 +144,12 @@
 <body>
   <header>
     <h1>Blog Moderno</h1>
-    <nav> 
-      <a href="{{ url_for('.index') }}">Início</a>
-      <a href="{{ url_for('.artigos') }}"> Artigos</a>
-      <a href="{{ url_for('.sobre') }}">Sobre</a>
-      <a href="#">Contacto</a>
-    </nav>
+    <nav>
+      <a href="{{ url_for('index') }}">Início</a>
+      <a href="{{ url_for('artigos') }}">Artigos</a>
+      <a href="{{ url_for('sob') }}">Sobre</a>
+      <a href="{{ url_for('contactos') }}">Contactos</a>
+    </nav>  
   </header>
 
   <div class="main-content">
