@@ -13,7 +13,7 @@
     }
 
     header {
-      background: linear-gradient(90deg, #4e54c8, #8f94fb);
+      background: linear-gradient(90deg, #211e3c, #8f94fb);
       color: white;
       text-align: center;
       padding: 40px 20px;
@@ -57,11 +57,11 @@
   <header>
     <h1>Sobre o Blog Moderno</h1>
     <nav>
-      <a href="#">Início</a>
-      <a href="{{ url_for('.artigos') }}">Artigos</a>
-      <a href="">Sobre</a>
-      <a href="#">Contacto</a>
-    </nav>
+        <a href="{{ url_for('index') }}">Início</a>
+        <a href="{{ url_for('artigos') }}">Artigos</a>
+        <a href="{{ url_for('sob') }}">Sobre</a>
+        <a href="{{ url_for('contactos') }}">Contactos</a>
+    </nav>  
   </header>
 
   <div class="content">
